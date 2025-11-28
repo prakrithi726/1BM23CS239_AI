@@ -80,3 +80,73 @@ for idx, solution in enumerate(solutions):
 
 print("Name: Prakrithi")
 print("USN: 1BM23CS239")
+
+output:
+Restart 1:
+Iteration 1:
+State (Queen positions): [6 3 5 2 7 4 1 0]
+Cost: 7
+
+Iteration 2:
+State (Queen positions): [6 3 5 2 0 4 1 7]
+Cost: 6
+
+Iteration 3:
+State (Queen positions): [1 3 5 2 0 4 6 7]
+Cost: 4
+
+Iteration 4:
+State (Queen positions): [1 3 5 7 0 4 6 2]
+Cost: 2
+
+Iteration 5:
+State (Queen positions): [1 3 5 7 2 0 6 4]
+Cost: 1
+
+Iteration 6:
+State (Queen positions): [1 3 5 7 2 4 6 0]
+Cost: 0
+
+
+Restart 2:
+Iteration 1:
+State (Queen positions): [2 5 7 1 3 0 6 4]
+Cost: 5
+
+Iteration 2:
+State (Queen positions): [2 5 7 1 3 6 0 4]
+Cost: 3
+
+Iteration 3:
+State (Queen positions): [4 6 1 5 2 0 3 7]
+Cost: 2
+
+Iteration 4:
+State (Queen positions): [4 6 1 5 2 7 3 0]
+Cost: 0
+
+
+Restart 3:
+Iteration 1:
+State (Queen positions): [0 4 7 5 2 6 1 3]
+Cost: 1
+
+Iteration 2:
+State (Queen positions): [0 4 7 5 2 6 1 3]
+Cost: 0
+
+
+Unique Solutions Found:
+
+Solution 1:
+1 3 5 7 2 4 6 0
+
+Solution 2:
+4 6 1 5 2 7 3 0
+
+Solution 3:
+0 4 7 5 2 6 1 3
+
+
+Name: Prakrithi
+USN: 1BM23CS239
