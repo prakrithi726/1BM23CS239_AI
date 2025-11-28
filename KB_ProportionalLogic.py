@@ -127,3 +127,25 @@ print("\nDoes KB entail alpha?", result)
 
 print("\nName: Prakrithi")
 print("USN: 1BM23CS239")
+
+output:
+Knowledge Base (KB): (((A ∧ ¬B) → (C ∨ A)) ↔ (B ∨ ¬C))
+Alpha (Query): (A → C)
+
+     A       |      B       |      C       | (((A ∧ ¬B) → (C ∨ A)) ↔ (B ∨ ¬C)) | ((A ∧ ¬B) → (C ∨ A)) |   (A → C)    |   (A ∧ ¬B)   |   (B ∨ ¬C)   |   (C ∨ A)    |      ¬B      |      ¬C      |      KB      |    Alpha    
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     F       |      F       |      F       |      T       |      T       |      T       |      F       |      T       |      F       |      T       |      T       |      T       |      T      
+     F       |      F       |      T       |      F       |      T       |      T       |      F       |      F       |      T       |      T       |      F       |      F       |      T      
+     F       |      T       |      F       |      T       |      T       |      T       |      F       |      T       |      F       |      F       |      T       |      T       |      T      
+     F       |      T       |      T       |      T       |      T       |      T       |      F       |      T       |      T       |      F       |      F       |      T       |      T      
+     T       |      F       |      F       |      T       |      T       |      F       |      T       |      T       |      T       |      T       |      T       |      T       |      F      
+     T       |      F       |      T       |      F       |      T       |      T       |      T       |      F       |      T       |      T       |      F       |      F       |      T      
+     T       |      T       |      F       |      T       |      T       |      F       |      F       |      T       |      T       |      F       |      T       |      T       |      F      
+     T       |      T       |      T       |      T       |      T       |      T       |      F       |      T       |      T       |      F       |      F       |      T       |      T      
+
+Result: KB does NOT entail Alpha.
+
+Does KB entail alpha? False
+
+Name: Prakrithi
+USN: 1BM23CS239
